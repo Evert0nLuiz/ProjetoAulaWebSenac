@@ -40,3 +40,24 @@ header{
     bottom: 0;
     right: 0;
 }
+
+.busca, .menu-departamentos{
+    background-color: #DCDCDC;
+    font-weight:bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    width: 230px;
+}
+.busca h2,.busca form,.menu-departamentos h2{
+    margin: 10px;
+}
+
+.menu-departamentos li{
+    background-color: #ffff;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a{
+    color: #;
+}

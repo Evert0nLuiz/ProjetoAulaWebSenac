@@ -12,7 +12,10 @@
 </head>
 <body>
     <header class="container">
-        <h1><img src="/ProjetoMirrorFashion/ProjetoMirrorFashion/img/logo.png" alt="Logo da Mirror Fashion"></h1>
+       
+        <h1>
+            <img src="img/logo.png" alt="Logo da Mirror Fashion"/>
+        </h1>
         <p class="sacola">
             Nenhum item na sacola de compras
         </p>
@@ -40,9 +43,10 @@
             </ul>
         </nav>
     </header>
-    <div class="produto">
-        <h1>Fuzzy Cardigan</h1>
-        <p>por apenas R$129,90</p>
+    <div class="container">
+        <div class="produto">
+        <h1><legend>Fuzzy Cardigan</legend></h1>
+        <p><legend>por apenas R$129,90</legend></p>
         <form>
             <fieldset class="cores">
                 <legend>Escolha a cor:</legend>
@@ -59,10 +63,20 @@
                     <img src="img/produtos/foto1-azul.png" alt="Produto na cor azul">
                 </label>
             </fieldset>
+            <fieldset class="tamanhos">
+                <legend>Escolha o tamanho:</legend>
+                <input type="range"  min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+            </fieldset>
             <button class="comprar">Comprar</button>
         </form>
 
     </div>
+    <div class="detalhes">
+        <h2>Detalhes do produto</h2>
+        <p>Esse é o melhor casaco de Cardigan que já viu. Excelente material italiano com estampa desenhada pelos artesãos da comunidade de Krotor nas ilhas gregas. Compre já e receba hoje mesmo pela nossa entrega a jato</p>
+
+    </div>
+</div>  
     <footer>
         <div class="container">
             <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
